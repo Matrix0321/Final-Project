@@ -7,20 +7,15 @@
 
 
 void Tests() {
-    string BigIntToString(const BigInt& num) {
-    stringstream ss;
-    ss << num;
-    return ss.str();
-    }
     
     // Three constructors
     BigInt number1; // Default constructor, should be zero
-    cout << "number1:" << number1 << endl;
-
+    std::cout << "number1: " << number1 << std::endl;
+    
     BigInt number2(-1234567890123456789LL); // Constructor from int64_t input
-    cout << "number2:" << number2 << endl;
+    std::cout << "number2: " << number2 << std::endl;
     BigInt number3("9876543210987654321");   // Constructor from string input
-    cout << "number3:" << number3 << endl;
+    std::cout << "number3: " << number3 << std::endl;
     
 
     // 1. Test addition operator `+`
