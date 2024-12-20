@@ -105,8 +105,7 @@ void Tests() {
     } catch (const exception& e) {
         cout << "Failed: compound operator `-=`" << endl;
     }
-
-    // 6. Test Compound Assignment *=: number3 *= 3
+    // 6. Test Compound Assignment *=
     try {
         number3 *= BigInt(3);
         cout << "number3 *= 3:" << number3 << endl;
