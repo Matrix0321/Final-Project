@@ -6,7 +6,7 @@
 
 
 
-// Helper function to turn BIgint object to string
+// Turn BIgint object to string
 string BigIntToString(const BigInt& num) {
     stringstream ss;
     ss << num;
