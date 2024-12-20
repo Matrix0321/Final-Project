@@ -6,15 +6,14 @@
 
 
 
-string BigIntToString(const BigInt& num) {
+void Tests() {
+    string BigIntToString(const BigInt& num) {
     stringstream ss;
     ss << num;
     return ss.str();
-}
-
-// Main test function
-void Tests() {
-    // Test three constructors
+    }
+    
+    // Three constructors
     BigInt number1; // Default constructor, should be zero
     cout << "number1:" << number1 << endl;
 
