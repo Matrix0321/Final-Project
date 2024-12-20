@@ -76,7 +76,7 @@ The logic is the same as the arithmatic functions. Only update the original numb
 If `num.is_negative` is true and `num.value != "0"`, prints `-`. Then iterates `num.value.rbegin()` to `num.value.rend()` to print the digits from left to right.
 
 ## Test 
-### Compile and run
+### Compile and Run
 ```cpp
     g++ -std=c++11 test.cpp -o test
     ./test
