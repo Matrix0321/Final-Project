@@ -78,7 +78,7 @@ If `num.is_negative` is true and `num.value != "0"`, prints `-`. Then iterates `
 ## Test 
 ### Compile and Run
 ```cpp
-    g++ -std=c++2b test.cpp -o test
+    g++ -Wall -Wextra -Wconversion -Wsign-conversion -Wshadow -Wpedantic -std=c++23 test.cpp -o test
     ./test
 ```
 
