@@ -126,7 +126,8 @@ random1 + random2 - random1 - random2:0
 Succeeded: Random test and Stress test
 ```
 
-In this `test.cpp`, we made different cases to test the effectiveness of this program. We compare the result calculated by the `BigInt` program with the result calculated by the calculator, if they are the same, this test case is considered succeed. <br>
+In this `test.cpp`, we made different cases to test the effectiveness of this program. 
+For operations test, we compare the result calculated by the `BigInt` program with the result calculated by the calculator, if they are the same, this test case is considered succeed. <br>
 For intergeation test, we compare if the results of `number1 - number2 - number3` and `number1 - number3 - number2` are the same. <br>
 For Consistency test, we compare if the results of `(number2 + number3) - number1` and `(number2 - number1) + number3` are the same. <br>
 And for Random and Stress test, we generate two numbers randomly with thousands of digits, and if `random1 + random2 - random1 - random2` equals to zero, without knowing what the exact number is, we can tell it succeeded. <br>
